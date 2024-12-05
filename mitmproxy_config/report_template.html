@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>MITM Proxy Traffic Report</title>
+</head>
+<body>
+    <h1>MITM Proxy Traffic Report</h1>
+    <h2>Request Summary</h2>
+    <table>
+        <tr>
+            <th>URL</th>
+            <th>Method</th>
+            <th>Status</th>
+        </tr>
+        {% for entry in requests %}
+        <tr>
+            <td>{{ entry.url }}</td>
+            <td>{{ entry.method }}</td>
+            <td>{{ entry.status }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
