@@ -1,0 +1,9 @@
+plaintext
+mitmproxy
+requests
+jinja2
+frida-tools
+elasticsearch
+pyOpenSSL
+cryptography
+beautifulsoup4
