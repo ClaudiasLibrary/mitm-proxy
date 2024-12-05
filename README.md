@@ -32,12 +32,15 @@ cd mitm-proxy
 ### Install dependencies:
 
 pip install -r requirements.txt
-Usage
 
-## To start the proxy:
+## Example:
+Here is an example of how the mitmproxy runs after the user inputs the configuration:
 
-python mitmproxy_config/proxy.py
+```bash
+Enter the listen host (default 0.0.0.0): 0.0.0.0
+Enter the listen port (default 8080): 8080
+Enter the proxy mode (default regular, options: regular, transparent, reverse): regular
+Show host information in logs? (y/n, default: y): y
+```
+This starts the proxy on 0.0.0.0:8080 in regular mode, and the proxy will log detailed information about the traffic being intercepted.
 
-## To generate reports:
-
-python mitmproxy_config/report_generator.py
