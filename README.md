@@ -20,15 +20,6 @@ It includes advanced features such as SSL Pinning Bypass, WebSocket Modification
 4. Elasticsearch (optional for real-time analysis)
 5. Jinja2 (for HTML report generation)
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/mitm-proxy.git
-cd mitm-proxy
-```
-
 ### Install dependencies:
 
 pip install -r requirements.txt
