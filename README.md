@@ -4,6 +4,9 @@ This project is a Man-in-the-Middle (MITM) Proxy tool built using `mitmproxy`.
 It allows for real-time HTTP/HTTPS traffic interception, modification, and analysis.
 It includes advanced features such as SSL Pinning Bypass, WebSocket Modification, Dynamic SSL Certificates, and real-time traffic analysis with Elasticsearch integration.
 
+## Theory behind the code
+[Exploiting Wired Networks](https://claudiaslibrary.notion.site/Exploiting-Wired-Networks-13219f75683280ef8cdecaa2feca683e)
+
 ## Features
 
 - **SSL Pinning Bypass**: Bypass SSL Pinning in mobile applications using Frida.
